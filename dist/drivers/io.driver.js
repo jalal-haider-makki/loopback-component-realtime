@@ -209,7 +209,7 @@ var IODriver = /** @class */ (function () {
             return null;
         var connection;
         this.forEachConnection(function (_connection) {
-            if (_connection.token && _connection.token.userId === userId) {
+            if (_connection.token && _connection.token.userId == userId) {
                 connection = _connection;
             }
         });
